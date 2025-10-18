@@ -128,4 +128,36 @@ ul {
   padding-left: 25px;
 }
 
+.ps-2 {
+  padding-left: 5px;
+}
 
+
+
+.footer-menu>ul>li{
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.form-control {
+  width: 95%;
+  margin: 5px 1px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
