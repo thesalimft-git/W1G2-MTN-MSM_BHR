@@ -14,26 +14,26 @@ function Navbar() {
                 <nav className="text-center d-sm-none d-md-block">
                 <ul>
                     <li>
-                        <a href="#" className="menu-items">Store</a>
+                        <a href="/" className="menu-items">Store</a>
                     </li>
                     <li>
-                        <a href="#" className="menu-items">Card</a>
+                        <a href="card" className="menu-items">Card</a>
                     </li>
                     <li>
-                        <a href="#" className="menu-items">Ticket</a>
+                        <a href="/ticket" className="menu-items">Ticket</a>
                     </li>
                     <li>
-                        <a href="#" className="menu-items">About Us</a>
+                        <a href="/about-us" className="menu-items">About Us</a>
                     </li>
                     <li>
-                        <a href="#" className="menu-items">Contact Us</a>
+                        <a href="/contact-us" className="menu-items">Contact Us</a>
                     </li>
                 </ul>
 
                 </nav>
                 <div>
-                <button className="btn btn-blue">login</button>
-                <button className="btn btn-blue">register</button>
+                <a className="btn btn-blue" href="/login">login</a>
+                <a className="btn btn-blue" href="/register">register</a>
                 </div>
              </div>
             {/* mobile menu */}

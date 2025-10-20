@@ -50,19 +50,19 @@ function Footer() {
             <div className="footer-menu">
               <ul>
                 <li>
-                  <a href="#" className="menu-items">Store</a>
+                  <a href="/" className="menu-items">Store</a>
                 </li>
                 <li>
-                  <a href="#" className="menu-items">Card</a>
+                  <a href="/card" className="menu-items">Card</a>
                 </li>
                 <li>
-                  <a href="#" className="menu-items">Ticket</a>
+                  <a href="/ticket" className="menu-items">Ticket</a>
                 </li>
                 <li>
-                  <a href="#" className="menu-items">About Us</a>
+                  <a href="/about-us" className="menu-items">About Us</a>
                 </li>
                 <li>
-                  <a href="#" className="menu-items">Contact Us</a>
+                  <a href="/contact-us" className="menu-items">Contact Us</a>
                 </li>
               </ul>
             </div>

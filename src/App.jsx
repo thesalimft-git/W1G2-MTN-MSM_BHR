@@ -12,6 +12,11 @@ function App() {
 
   return (
     <>
+
+
+
+
+
      <Navbar />
      <SlideShow />
      <Influencer />
