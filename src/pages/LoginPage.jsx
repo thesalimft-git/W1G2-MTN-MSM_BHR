@@ -6,15 +6,31 @@
 // ContactUsPage.jsx
 
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 
 function LoginPage() {
   return (
     <>
       <Navbar />
-        <h1>
-            LoginPage
-        </h1>
+
+
+        <div className='d-flex-center'>
+          <div className='login-box'> 
+            <form action="">
+              <label for="username">Username</label>
+              <input className='form-control' type="text" id="username"/>
+              
+              <label for="password">Password</label>
+              <input className='form-control' type="password" id="password"/>
+
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+
+
+      <Footer />
     </>
   )
 }
