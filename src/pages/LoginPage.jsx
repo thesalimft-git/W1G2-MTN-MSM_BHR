@@ -1,20 +1,10 @@
-// LoginPage.jsx
-// RegisterPage.jsx
-// CardPage.jsx
-// TicketPage.jsx
-// AboutUsPage.jsx
-// ContactUsPage.jsx
 
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-
 
 function LoginPage() {
   return (
     <>
       <Navbar />
-
-
         <div className='d-flex-center'>
           <div className='login-box'> 
             <form action="">
@@ -28,9 +18,6 @@ function LoginPage() {
             </form>
           </div>
         </div>
-
-
-      <Footer />
     </>
   )
 }

@@ -32,8 +32,8 @@ function Navbar() {
 
                 </nav>
                 <div>
-                <a className="btn btn-blue" href="/login">login</a>
-                <a className="btn btn-blue" href="/register">register</a>
+                <a className="btn btn-blue" href="/login">Login</a>
+                <a className="btn btn-blue" href="/register">Register</a>
                 </div>
              </div>
             {/* mobile menu */}
