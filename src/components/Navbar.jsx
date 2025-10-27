@@ -37,7 +37,7 @@ function Navbar() {
                 </div>
              </div>
             {/* mobile menu */}
-            <div className="position-fix-bottom d-sm-block d-md-none">
+            <div className="mobile-menu-area bg-blue position-fix-bottom d-sm-block d-md-none">
                 <section className="d-flex ">
                     <div>
                         <div>
