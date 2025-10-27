@@ -1,3 +1,7 @@
+body {
+  margin: auto;
+}
+
 /* mobile */
 @media only screen and (max-width:720px) {
   .col-sm-2{
@@ -107,9 +111,9 @@ ul {
   overflow-x: scroll;
   overflow-y: visible;
 }
+
 .img-ads{
  width: 100%;
- margin: 5px;
  border-radius: 10px;
 }
 
@@ -199,10 +203,39 @@ tr:nth-child(even){
 }
 
 .mobile-menu-area {
-  color: white
+  color: white;
+  
 }
+
+
 
 .bg-blue {
   background-color: blue;
 }
 
+.mobile-menu-area a {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.mobile-menu-area>section {
+  margin: 10px 30px;
+}
+
+.mobile-menu-area>section>div>a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ads-container {
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
